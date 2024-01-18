@@ -1,0 +1,111 @@
+body{
+    background-color:#D2E3C8;
+}
+
+#top-part{
+background-color: #86A789;
+color: #334f35;
+}
+
+ #melonMusic {
+    background-color: #5a8a59;
+    color: #1b301c; 
+   
+ }
+    
+ #Types-of-melons{
+    background-color: #375537;
+    color: #EEE7DA;
+ }
+
+ #Health{
+    background-color: #d19b54;
+    color: #362312; 
+     }
+
+  .top-sections{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .Section-Images{
+    padding: 10px;
+   height: 350px;
+  }
+
+
+header ul{
+    display: flex;
+}
+
+li{
+    margin: 20px;
+    border: 100px;
+    padding: 5px;
+}
+
+.topimg{
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.cardsclass{
+    width: 200px;
+    height: 320px;
+    min-width: 100px;
+    background: #5a8a59;
+    margin: 5px;
+    border: 1px solid #1b301c;
+    
+}
+
+.flexbox{
+    display:flex;
+    flex-direction:row;
+}
+
+.cardsclass img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .cardsclass:hover{
+    transform: scale(1.05);
+  }
+
+  .flexboxfooter{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .linksfooter{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .toptitle{
+    display:flex;
+    justify-content:center
+  }
+
+  .footer-flexbox{
+    display: flex;
+  }
+
+  .footer-title{
+    justify-content: center;
+  }
+
+  footer{
+    background-image:url(./iStock-1390198686.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
